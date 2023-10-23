@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const userMessage = userInput.value;
         if (userMessage.trim() !== '') {
             displayMessage(userMessage, 'user');
-            getBotResponse(userMessage);
+            setTimeout(() => {
+                getBotResponse(userMessage);
+            }, 1000); // Simulate typing delay
             userInput.value = '';
         }
     }
@@ -28,25 +30,44 @@ document.addEventListener('DOMContentLoaded', function() {
         const aboutrojan = ['Rojan Parajuli', 'ROJAN PARAJULI', 'rojan parajuli ', 'rojan','Rojan'];
         const aboutprayash = ['Prayash Rimal', 'PRAYASH RIMAL', 'prayash rimal','prayash','Prayash'];
         const aboutaarya = ['Aarya Poudel','Aarya poudel','aarya poudel','Aarya','aarya','1','one'];
-        const aboutdeepak = ['Deepak','Deepak Bhujel','deepak','deepak bhujel']
+        const aboutdeepak = ['Deepak','Deepak Bhujel','deepak','deepak bhujel'];
+        const aboutme =['What is your name?','Who are you?','what is your name?','who are you?'];
         const normalizedMessage = message.toLowerCase();
 
+        let response;
+
         if (greetings.includes(normalizedMessage)) {
-            displayMessage("Hello sir/ma'am, how can I help you?", 'bot');
+            response = "Hello sir/ma'am, how can I help you?";
         } else if (iamrojanGreetings.includes(normalizedMessage)) {
-            displayMessage("Oh I am sorry boss, I didn't recognize you. How are you?", 'bot');
+            response = "Oh I am sorry boss, I didn't recognize you. How are you?";
         } else if (aboutrojan.includes(normalizedMessage)) {
-            displayMessage("Rojan Parajuli is a normal guy, Born in 2003 Jan 26, Kathmandu, Nepal. Currently working as Designer and Province Incharge at Gaaubesi Logistics PVT. Ltd.", 'bot');
+            response = "Rojan Parajuli is a normal guy, Born in 2003 Jan 26, Kathmandu, Nepal. Currently working as Designer and Province Incharge at Gaaubesi Logistics PVT. Ltd. He is also my creator.";
         }else if (aboutprayash.includes(normalizedMessage)) {
-            displayMessage("Mr. Praysh Rimal is a software engineer currently working at Gaaubesi Logistics PVT. LTD as a Senior Developer and IT head. He is from Bharatpur. He completed his graduation at East West Institute of Technology. He is a very talented person and is currently single. If anyone is interested, please feel free to contact him; he won't reject you. ", 'bot');
+            response = "Mr. Praysh Rimal is a software engineer currently working at Gaaubesi Logistics PVT. LTD as a Senior Developer and IT head. He is from Bharatpur. He completed his graduation at East West Institute of Technology. He is a very talented person and is currently single. If anyone is interested, please feel free to contact him; he won't reject you. ";
         } else if (aboutaarya.includes(normalizedMessage)) {
-            displayMessage("Miss Aarya Poudel is a law student currently pursuing her bachelor's degree at Nepal Law Campus. She is very talented. During her school years, she used to top her class every year. If 'beauty with brain' was a real person, it would be Miss Aarya Poudel. Originally from Udayapur, Ghaighat, she currently resides in Radhe Radhe, Bhaktapur with her family.", 'bot');
+            response = "Miss Aarya Poudel is a law student currently pursuing her bachelor's degree at Nepal Law Campus. She is very talented. During her school years, she used to top her class every year. If 'beauty with brain' was a real person, it would be Miss Aarya Poudel. Originally from Udayapur, Ghaighat, she currently resides in Radhe Radhe, Bhaktapur with her family.";
          }else if (aboutdeepak.includes(normalizedMessage)) {
-            displayMessage("Kukhura chor", 'bot');
+            response = "Kukhura chor";
+         }else if (aboutme.includes(normalizedMessage)) {
+                response = "I am a chatbot, i am sorry ,i have many limitaions.I may say'I'm sorry, I don't understand that'for simple things as well." ;
          }else {
             // Default response if no greeting is matched
-            displayMessage("I'm sorry, I don't understand that.", 'bot');
+            response = "I'm sorry, I don't understand that.";
         }
+
+        simulateTyping(response);
+    }
+
+    function simulateTyping(message) {
+        const typingIndicator = document.createElement('div');
+        typingIndicator.classList.add('message', 'bot', 'typing');
+        typingIndicator.innerText = 'Typing...';
+        chatOutput.appendChild(typingIndicator);
+
+        setTimeout(() => {
+            typingIndicator.style.display = 'none';
+            displayMessage(message, 'bot');
+        }, 1000 + (Math.random() * 1000)); // Simulate typing duration
     }
 
     function displayMessage(message, sender) {
