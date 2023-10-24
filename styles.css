@@ -17,7 +17,18 @@ body, html {
     height: 70%;
     overflow-y: scroll;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 150px;/*send ko buttom tala mathi garney*/
+    margin-bottom: 120px;/*send ko buttom tala mathi garney*/
+}
+
+.user-icon, .bot-icon {
+    display: inline-block;
+    width: 30px; /* Adjust the width to your preference */
+    text-align: center;
+    margin-right: 10px;
+}
+
+.user-icon i, .bot-icon i {
+    font-size: 30px; /* Adjust the font size to your preference */
 }
 
 #user-input {
@@ -45,4 +56,9 @@ body, html {
 .typing {
     font-style: italic;
     color: #888;
+}
+
+.message,
+.question {
+    margin-bottom: 25px; 
 }
