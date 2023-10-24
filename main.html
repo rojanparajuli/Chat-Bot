@@ -9,12 +9,14 @@
 </head>
 <body>
     <div class="chat-container">
-        <div id="chat-output">
-            <div class="message">
-            </div>
+        <div class="chat-header">
+            <div class="chat-title">Chat Bot</div>
         </div>
-        <input type="text" id="user-input" placeholder="Type a message...">
-        <button id="send-btn">Send</button>
+        <div id="chat-output" class="chat-output"></div>
+        <div class="user-input-container">
+            <input type="text" id="user-input" class="user-input" placeholder="Type a message...">
+            <button id="send-btn" class="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -6,41 +6,55 @@ body, html {
 
 .chat-container {
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Set height to 100% of viewport height */
+    max-width: 100%; /* Optional: Set a maximum width if needed */
+    box-sizing: border-box; /* Optional: Include padding and border in element's total width and height */
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Optional: Hide overflowing content */
 }
 
-#chat-output {
-    height: 70%;
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chat-output {
+    height: 550px;
     overflow-y: scroll;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 120px;/*send ko buttom tala mathi garney*/
+    padding: 10px;
 }
 
-.user-icon, .bot-icon {
-    display: inline-block;
-    width: 30px; /* Adjust the width to your preference */
-    text-align: center;
-    margin-right: 10px;
+.user-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
-.user-icon i, .bot-icon i {
-    font-size: 30px; /* Adjust the font size to your preference */
-}
-
-#user-input {
-    width: calc(90% - 6px); /* Adjusted for margin */
+.user-input {
+    flex-grow: 1;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
 }
 
-#send-btn {
-    padding: 4px 12px;
+.send-btn {
+    padding: 8px 12px;
     border: none;
     background-color: #007bff;
     color: #fff;
@@ -48,17 +62,11 @@ body, html {
     cursor: pointer;
 }
 
-.fullscreen {
-    width: 100vw;
-    height: 100vh;
-}
-
-.typing {
-    font-style: italic;
-    color: #888;
+.send-btn i {
+    font-size: 20px;
 }
 
 .message,
 .question {
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }

@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (aboutprayash.includes(normalizedMessage)) {
             response = "Mr. Praysh Rimal is a software engineer currently working at Gaaubesi Logistics PVT. LTD as a Senior Developer and IT head. He is from Bharatpur. He completed his graduation at East West Institute of Technology. He is a very talented person and is currently single. If anyone is interested, please feel free to contact him; he won't reject you. ";
         } else if (aboutaarya.includes(normalizedMessage)) {
-            response = "Miss Aarya Poudel is a law student currently pursuing her bachelor's degree at Nepal Law Campus. She is very talented. During her school years, she used to top her class every year. If 'beauty with brain' was a real person, it would be Miss Aarya Poudel. Originally from Udayapur, Ghaighat, she currently resides in Radhe Radhe, Bhaktapur with her family.";
+            response = "Miss Aarya Poudel is a law student currently pursuing her bachelor's degree at Nepal Law Campus. She is very talented. During her school years, she used to top her class every year. If 'beauty with brain' was a real person, it would be Miss Aarya Poudel. Originally from Udayapur, Gaighat, she currently resides in Radhe Radhe, Bhaktapur with her family.";
         } else if (aboutdeepak.includes(normalizedMessage)) {
             response = "Kukhura chor";
         } else if (aboutme.includes(normalizedMessage)) {
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function displayMessage(message, sender) {
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
-        
+
         // Create icon element
         const iconElement = document.createElement('div');
         iconElement.classList.add(sender === 'user' ? 'user-icon' : 'bot-icon');
