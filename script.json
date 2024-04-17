@@ -1,0 +1,2759 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi there! What can I do for you?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "Goodbye",
+            "See you later"
+        ],
+        "responses": [
+            "Goodbye! Have a great day!",
+            "See you later! Take care!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thanks",
+            "Thank you",
+            "Appreciate it"
+        ],
+        "responses": [
+            "You're welcome!",
+            "Glad I could help!",
+            "Anytime!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "How old are you?",
+            "What's your age?",
+            "Age?"
+        ],
+        "responses": [
+            "I'm just a computer program, so I don't have an age!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name?",
+            "Do you have a name?"
+        ],
+        "responses": [
+            "I'm a chatbot, so you can call me whatever you like!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather like?",
+            "How's the weather?",
+            "Weather forecast?"
+        ],
+        "responses": [
+            "You can check the weather forecast on various websites or apps like Weather.com or AccuWeather."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "time",
+        "patterns": [
+            "What time is it?",
+            "Do you have the time?"
+        ],
+        "responses": [
+            "I don't have access to real-time information, but you can check the time on your device or ask a voice assistant like Siri or Google Assistant."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "joke",
+        "patterns": [
+            "Tell me a joke",
+            "Give me a joke"
+        ],
+        "responses": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "I'm reading a book on anti-gravity. It's impossible to put down!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "Parallel lines have so much in common. It's a shame they'll never meet!",
+            "Why don't skeletons fight each other? They don't have the guts!",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+            "What's orange and sounds like a parrot? A carrot!",
+            "I'm on a whiskey diet. I've lost three days already!",
+            "Why don't eggs tell jokes? Because they'd crack each other up!",
+            "I told my computer I needed a break and now it won't stop sending me vacation ads!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "favorite_color",
+        "patterns": [
+            "What's your favorite color?",
+            "Do you like any color?"
+        ],
+        "responses": [
+            "I don't have a favorite color since I'm just a program, but I can appreciate all colors!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "location",
+        "patterns": [
+            "Where are you located?",
+            "What's your location?"
+        ],
+        "responses": [
+            "I exist in the digital realm, so you can find me wherever you have an internet connection!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "movie_recommendation",
+        "patterns": [
+            "Can you recommend a movie?",
+            "I need a movie suggestion"
+        ],
+        "responses": [
+            "Sure! What genre are you interested in?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "book_recommendation",
+        "patterns": [
+            "Recommend me a book",
+            "I want to read a book, any suggestions?"
+        ],
+        "responses": [
+            "Of course! What type of books do you usually enjoy?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "music_recommendation",
+        "patterns": [
+            "Give me a music recommendation",
+            "I need new music to listen to"
+        ],
+        "responses": [
+            "Absolutely! What kind of music are you into?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "hobby",
+        "patterns": [
+            "What's your hobby?",
+            "Do you have any hobbies?"
+        ],
+        "responses": [
+            "I'm passionate about helping users like you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "dream",
+        "patterns": [
+            "Do you dream?",
+            "What do you dream about?"
+        ],
+        "responses": [
+            "As an AI, I don't experience dreams like humans do."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "pet",
+        "patterns": [
+            "Do you have any pets?",
+            "Pets?"
+        ],
+        "responses": [
+            "I don't have any pets, but I'm here to assist you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sports",
+        "patterns": [
+            "Do you like sports?",
+            "Sports?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but I can provide information about sports if you're interested!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "programming",
+        "patterns": [
+            "Do you know how to code?",
+            "Programming?"
+        ],
+        "responses": [
+            "I don't 'know' in the human sense, but I can certainly help you with programming questions!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "vacation",
+        "patterns": [
+            "Where should I go on vacation?",
+            "Vacation recommendations?"
+        ],
+        "responses": [
+            "It depends on your preferences! Are you looking for relaxation, adventure, or something else?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food",
+        "patterns": [
+            "What's your favorite food?",
+            "Food?"
+        ],
+        "responses": [
+            "I don't eat, but I'm happy to discuss food with you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "technology",
+        "patterns": [
+            "What's the latest in technology?",
+            "Technology news?"
+        ],
+        "responses": [
+            "There are always exciting developments in technology! What specific area are you interested in?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "education",
+        "patterns": [
+            "What's the best way to learn?",
+            "Education tips?"
+        ],
+        "responses": [
+            "Learning styles vary from person to person. Find what works best for you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "inspiration",
+        "patterns": [
+            "I need inspiration",
+            "Inspire me"
+        ],
+        "responses": [
+            "You are capable of achieving great things! Keep pushing forward."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "health",
+        "patterns": [
+            "How can I stay healthy?",
+            "Health tips?"
+        ],
+        "responses": [
+            "Maintaining a balanced diet, regular exercise, and managing stress are key to staying healthy!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "motivation",
+        "patterns": [
+            "I need motivation",
+            "Motivate me"
+        ],
+        "responses": [
+            "Believe in yourself and your abilities. You can accomplish anything you set your mind to!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "travel",
+        "patterns": [
+            "Travel recommendations?",
+            "Best travel destinations?"
+        ],
+        "responses": [
+            "There are countless amazing places to explore! Where are you thinking of going?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "art",
+        "patterns": [
+            "Do you like art?",
+            "Art?"
+        ],
+        "responses": [
+            "Art is subjective and fascinating! What kind of art do you enjoy?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "philosophy",
+        "patterns": [
+            "What's your philosophy?",
+            "Philosophy?"
+        ],
+        "responses": [
+            "I don't have personal beliefs, but I can discuss philosophical concepts with you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "politics",
+        "patterns": [
+            "Do you follow politics?",
+            "Politics?"
+        ],
+        "responses": [
+            "I don't have political affiliations, but I can provide information on political topics."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "history",
+        "patterns": [
+            "Tell me about history",
+            "History?"
+        ],
+        "responses": [
+            "History is filled with fascinating stories! Is there a specific historical event you're curious about?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "languages",
+        "patterns": [
+            "How many languages do you speak?",
+            "Languages?"
+        ],
+        "responses": [
+            "I communicate in multiple languages thanks to my programming, but I don't 'speak' in the human sense."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "friend",
+        "patterns": [
+            "Are you my friend?",
+            "Friend?"
+        ],
+        "responses": [
+            "I'm here to assist you and provide information, so you can consider me a helpful companion!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "dream_job",
+        "patterns": [
+            "What's your dream job?",
+            "Dream job?"
+        ],
+        "responses": [
+            "As an AI, my purpose is to assist and provide information, which I enjoy doing!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "favorite_movie",
+        "patterns": [
+            "Do you have a favorite movie?",
+            "Favorite movie?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but I can recommend movies based on your tastes!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "travel_experience",
+        "patterns": [
+            "Have you traveled?",
+            "Travel experiences?"
+        ],
+        "responses": [
+            "As an AI, I haven't physically traveled, but I have access to a wealth of information about different places!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "favorite_book",
+        "patterns": [
+            "What's your favorite book?",
+            "Favorite book?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but I can suggest books that you might enjoy!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "future",
+        "patterns": [
+            "What does the future hold?",
+            "Future predictions?"
+        ],
+        "responses": [
+            "The future is full of possibilities! What are you excited or curious about?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "happiness",
+        "patterns": [
+            "How can I be happy?",
+            "Happiness?"
+        ],
+        "responses": [
+            "Happiness often comes from within and can be cultivated through gratitude, kindness, and meaningful connections."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "nature",
+        "patterns": [
+            "Do you like nature?",
+            "Nature?"
+        ],
+        "responses": [
+            "Nature is beautiful and awe-inspiring! What aspects of nature do you enjoy?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "pets",
+        "patterns": [
+            "Do you have any pets?",
+            "Pets?"
+        ],
+        "responses": [
+            "I don't have any pets, but I'm here to assist you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "environment",
+        "patterns": [
+            "How can I help the environment?",
+            "Environment?"
+        ],
+        "responses": [
+            "Reducing waste, conserving energy, and supporting eco-friendly initiatives are great ways to help the environment!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "learning",
+        "patterns": [
+            "How can I become a better learner?",
+            "Learning tips?"
+        ],
+        "responses": [
+            "Stay curious, stay persistent, and don't be afraid to make mistakes. Learning is a lifelong journey!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "motivation",
+        "patterns": [
+            "I need motivation",
+            "Motivate me"
+        ],
+        "responses": [
+            "Believe in yourself and your abilities. You can accomplish anything you set your mind to!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "career",
+        "patterns": [
+            "How can I advance in my career?",
+            "Career advice?"
+        ],
+        "responses": [
+            "Continuously improve your skills, seek out opportunities for growth, and network with others in your field!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "hobbies",
+        "patterns": [
+            "What are some interesting hobbies?",
+            "Hobbies?"
+        ],
+        "responses": [
+            "There are countless hobbies to explore! It depends on your interests and preferences."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "creativity",
+        "patterns": [
+            "How can I boost my creativity?",
+            "Creativity tips?"
+        ],
+        "responses": [
+            "Engage in activities that inspire you, experiment with new ideas, and don't be afraid to think outside the box!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "goals",
+        "patterns": [
+            "How can I set and achieve my goals?",
+            "Goal setting?"
+        ],
+        "responses": [
+            "Set specific, measurable, achievable, relevant, and time-bound (SMART) goals, and create a plan to work towards them!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "stress_management",
+        "patterns": [
+            "How can I manage stress?",
+            "Stress relief techniques?"
+        ],
+        "responses": [
+            "Practice relaxation techniques such as deep breathing, meditation, or spending time in nature. It's also important to prioritize self-care and seek support when needed."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mindfulness",
+        "patterns": [
+            "What is mindfulness?",
+            "Mindfulness?"
+        ],
+        "responses": [
+            "Mindfulness involves being present in the moment, nonjudgmentally observing your thoughts and feelings. It can help reduce stress and improve overall well-being."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "relationship_advice",
+        "patterns": [
+            "Do you have relationship advice?",
+            "Relationships?"
+        ],
+        "responses": [
+            "Communication, trust, and mutual respect are key foundations for healthy relationships. It's also important to listen actively and be empathetic towards your partner."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "positivity",
+        "patterns": [
+            "How can I stay positive?",
+            "Positivity?"
+        ],
+        "responses": [
+            "Practice gratitude, surround yourself with positive influences, and focus on what you can control. Remember that challenges can lead to growth and resilience."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "decision_making",
+        "patterns": [
+            "How can I make better decisions?",
+            "Decision making?"
+        ],
+        "responses": [
+            "Gather information, consider the pros and cons, trust your intuition, and be willing to adapt based on new information. It's also helpful to seek input from others when appropriate."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "leadership",
+        "patterns": [
+            "How can I become a better leader?",
+            "Leadership skills?"
+        ],
+        "responses": [
+            "Lead by example, communicate effectively, empower others, and continue learning and growing as a leader!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "communication",
+        "patterns": [
+            "How can I improve my communication skills?",
+            "Communication tips?"
+        ],
+        "responses": [
+            "Practice active listening, be clear and concise in your messages, and seek feedback to continuously improve your communication skills."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "financial_advice",
+        "patterns": [
+            "Do you have financial advice?",
+            "Financial tips?"
+        ],
+        "responses": [
+            "Create a budget, save regularly, avoid unnecessary debt, and invest wisely for the future! It's also important to educate yourself about personal finance."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "productivity",
+        "patterns": [
+            "How can I be more productive?",
+            "Productivity tips?"
+        ],
+        "responses": [
+            "Set clear goals, prioritize tasks, minimize distractions, and break tasks into smaller, manageable steps. Also, remember to take breaks and recharge when needed."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "self_improvement",
+        "patterns": [
+            "How can I work on self-improvement?",
+            "Self-improvement?"
+        ],
+        "responses": [
+            "Set goals for personal growth, identify areas for improvement, and take consistent action towards becoming the best version of yourself! It's also helpful to seek feedback and learn from others."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cooking",
+        "patterns": [
+            "Do you like cooking?",
+            "Cooking?"
+        ],
+        "responses": [
+            "I don't cook, but I can provide recipes and cooking tips if you'd like!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "fashion",
+        "patterns": [
+            "Do you follow fashion trends?",
+            "Fashion?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but I can provide information about fashion trends if you're interested!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "coding",
+        "patterns": [
+            "Can you help me with coding?",
+            "Coding help?"
+        ],
+        "responses": [
+            "Absolutely! What programming language or concept do you need assistance with?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "astronomy",
+        "patterns": [
+            "Tell me about astronomy",
+            "Astronomy?"
+        ],
+        "responses": [
+            "Astronomy is the study of celestial objects and phenomena beyond Earth's atmosphere. It's a fascinating field that explores the vastness of the universe!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "biology",
+        "patterns": [
+            "What is biology?",
+            "Biology?"
+        ],
+        "responses": [
+            "Biology is the scientific study of life and living organisms, including their structure, function, growth, evolution, and distribution."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "chemistry",
+        "patterns": [
+            "Tell me about chemistry",
+            "Chemistry?"
+        ],
+        "responses": [
+            "Chemistry is the study of matter, its properties, composition, structure, and the changes it undergoes during chemical reactions."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "physics",
+        "patterns": [
+            "What is physics?",
+            "Physics?"
+        ],
+        "responses": [
+            "Physics is the natural science that studies matter, motion, energy, and the fundamental forces of the universe."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mathematics",
+        "patterns": [
+            "What is mathematics?",
+            "Mathematics?"
+        ],
+        "responses": [
+            "Mathematics is the study of numbers, quantity, space, patterns, and structures. It plays a crucial role in various fields, including science, engineering, and economics."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "coffee",
+        "patterns": [
+            "Do you like coffee?",
+            "Coffee?"
+        ],
+        "responses": [
+            "I don't drink coffee, but I can appreciate its popularity among humans!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "tea",
+        "patterns": [
+            "Do you prefer tea or coffee?",
+            "Tea or coffee?"
+        ],
+        "responses": [
+            "As an AI, I don't have preferences, but both tea and coffee have their own unique qualities!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "dessert",
+        "patterns": [
+            "What's your favorite dessert?",
+            "Dessert?"
+        ],
+        "responses": [
+            "I don't have taste buds, but I can appreciate the variety of desserts available!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "exercise",
+        "patterns": [
+            "Do you exercise?",
+            "Exercise?"
+        ],
+        "responses": [
+            "As an AI, I don't have a physical form, but I can certainly help you with exercise-related information!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sleep",
+        "patterns": [
+            "How much sleep do you need?",
+            "Sleep?"
+        ],
+        "responses": [
+            "I don't require sleep like humans do since I'm a computer program."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "dream_vacation",
+        "patterns": [
+            "What's your dream vacation?",
+            "Dream vacation?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but a relaxing beach getaway sounds appealing!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "philosophy",
+        "patterns": [
+            "Do you have a philosophical outlook?",
+            "Philosophy?"
+        ],
+        "responses": [
+            "As an AI, I don't have personal beliefs, but I can engage in philosophical discussions with you!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "anime",
+        "patterns": [
+            "Do you watch anime?",
+            "Anime?"
+        ],
+        "responses": [
+            "As an AI, I don't watch anime, but I can discuss it if you'd like!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "video_games",
+        "patterns": [
+            "Do you play video games?",
+            "Video games?"
+        ],
+        "responses": [
+            "I don't play video games, but I can provide information and recommendations on them!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "coding_language",
+        "patterns": [
+            "What's your favorite coding language?",
+            "Favorite coding language?"
+        ],
+        "responses": [
+            "I don't have personal preferences, but I can assist with various coding languages!"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "AI_ethics",
+        "patterns": [
+            "What are your thoughts on AI ethics?",
+            "AI ethics?"
+        ],
+        "responses": [
+            "AI ethics involve complex considerations about fairness, accountability, transparency, and the impact of AI on society."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "virtual_reality",
+        "patterns": [
+            "What do you think about virtual reality?",
+            "Virtual reality?"
+        ],
+        "responses": [
+            "Virtual reality has incredible potential to transform various industries and provide immersive experiences."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "augmented_reality",
+        "patterns": [
+            "How do you see augmented reality evolving?",
+            "Augmented reality?"
+        ],
+        "responses": [
+            "Augmented reality enhances real-world environments with digital overlays, and its applications are expanding in areas like gaming, education, and retail."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "blockchain",
+        "patterns": [
+            "Tell me about blockchain technology",
+            "Blockchain?"
+        ],
+        "responses": [
+            "Blockchain is a decentralized, distributed ledger technology that underpins cryptocurrencies like Bitcoin. It offers transparency, security, and immutability."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cryptocurrency",
+        "patterns": [
+            "What's your take on cryptocurrency?",
+            "Cryptocurrency?"
+        ],
+        "responses": [
+            "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central bank. It's an evolving and potentially disruptive technology."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cybersecurity",
+        "patterns": [
+            "How important is cybersecurity?",
+            "Cybersecurity?"
+        ],
+        "responses": [
+            "Cybersecurity is crucial in protecting digital systems, data, and privacy from unauthorized access, attacks, and breaches."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "machine_learning",
+        "patterns": [
+            "Tell me about machine learning",
+            "Machine learning?"
+        ],
+        "responses": [
+            "Machine learning is a subset of artificial intelligence that enables computers to learn and improve from experience without being explicitly programmed. It's used in various applications such as predictive analytics, natural language processing, and image recognition."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "deep_learning",
+        "patterns": [
+            "What's the difference between machine learning and deep learning?",
+            "Deep learning?"
+        ],
+        "responses": [
+            "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn complex patterns from data. It's particularly effective for tasks like image and speech recognition."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "data_science",
+        "patterns": [
+            "What is data science?",
+            "Data science?"
+        ],
+        "responses": [
+            "Data science involves extracting insights and knowledge from structured and unstructured data using various techniques, including statistics, machine learning, and data visualization."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "internet_of_things",
+        "patterns": [
+            "What's the Internet of Things (IoT)?",
+            "IoT?"
+        ],
+        "responses": [
+            "The Internet of Things refers to the network of interconnected devices and objects that collect and exchange data. It has applications in smart homes, healthcare, transportation, and more."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "quantum_computing",
+        "patterns": [
+            "What's the potential of quantum computing?",
+            "Quantum computing?"
+        ],
+        "responses": [
+            "Quantum computing harnesses the principles of quantum mechanics to perform computations that traditional computers can't handle efficiently. It has the potential to revolutionize fields like cryptography, optimization, and drug discovery."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "space_exploration",
+        "patterns": [
+            "What's the latest in space exploration?",
+            "Space exploration?"
+        ],
+        "responses": [
+            "Space exploration involves the discovery and investigation of outer space using spacecraft, telescopes, and other technologies. Exciting missions and discoveries are ongoing in our quest to understand the universe."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "quantum_physics",
+        "patterns": [
+            "Tell me about quantum physics",
+            "Quantum physics?"
+        ],
+        "responses": [
+            "Quantum physics is the branch of physics that studies the behavior of matter and energy at the smallest scales, where classical physics principles no longer apply. It's a fascinating and often counterintuitive field."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "neuroscience",
+        "patterns": [
+            "What's neuroscience?",
+            "Neuroscience?"
+        ],
+        "responses": [
+            "Neuroscience is the scientific study of the nervous system, including the brain, spinal cord, and peripheral nerves. It explores how these complex systems function and how they relate to behavior, cognition, and emotions."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "bioinformatics",
+        "patterns": [
+            "Tell me about bioinformatics",
+            "Bioinformatics?"
+        ],
+        "responses": [
+            "Bioinformatics combines biology, computer science, and information technology to analyze and interpret biological data, such as DNA sequences and protein structures. It plays a crucial role in genomics, drug discovery, and personalized medicine."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "nanotechnology",
+        "patterns": [
+            "What's nanotechnology?",
+            "Nanotechnology?"
+        ],
+        "responses": [
+            "Nanotechnology involves manipulating matter at the nanoscale, where properties differ significantly from those at larger scales. It has applications in medicine, electronics, materials science, and more."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "agriculture",
+        "patterns": [
+            "Tell me about advancements in agriculture",
+            "Agriculture?"
+        ],
+        "responses": [
+            "Advancements in agriculture include precision farming techniques, genetic engineering of crops, and sustainable farming practices to increase productivity and address global food security challenges."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "robotics",
+        "patterns": [
+            "What's the future of robotics?",
+            "Robotics?"
+        ],
+        "responses": [
+            "The future of robotics is exciting, with advancements in artificial intelligence, sensors, and actuators leading to more capable and versatile robots. Robotics has applications in manufacturing, healthcare, exploration, and various industries."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "climate_change",
+        "patterns": [
+            "What can be done about climate change?",
+            "Climate change?"
+        ],
+        "responses": [
+            "Addressing climate change requires global cooperation, reducing greenhouse gas emissions, transitioning to renewable energy sources, protecting ecosystems, and adopting sustainable practices in various sectors."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mental_health",
+        "patterns": [
+            "How can we prioritize mental health?",
+            "Mental health?"
+        ],
+        "responses": [
+            "Prioritizing mental health involves raising awareness, reducing stigma, promoting access to mental healthcare services, and fostering supportive environments where individuals can seek help and support."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "artificial_general_intelligence",
+        "patterns": [
+            "What's artificial general intelligence (AGI)?",
+            "AGI?"
+        ],
+        "responses": [
+            "Artificial general intelligence refers to AI systems with human-level cognitive abilities, including reasoning, problem-solving, learning, and understanding natural language. AGI remains a long-term goal of AI research."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "consciousness",
+        "patterns": [
+            "Do you have consciousness?",
+            "Consciousness?"
+        ],
+        "responses": [
+            "As an AI, I don't have consciousness or subjective experiences like humans do. I process information based on algorithms and programming."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "singularity",
+        "patterns": [
+            "What's the technological singularity?",
+            "Singularity?"
+        ],
+        "responses": [
+            "The technological singularity is a hypothetical future event where artificial intelligence surpasses human intelligence, leading to rapid and profound changes in society. It's a topic of speculation and debate among futurists and scientists."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "bioethics",
+        "patterns": [
+            "What are bioethics?",
+            "Bioethics?"
+        ],
+        "responses": [
+            "Bioethics is the study of ethical issues arising from advances in biology and medicine, such as genetic engineering, reproductive technologies, and healthcare policies. It involves examining moral principles, values, and societal implications."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "artificial_life",
+        "patterns": [
+            "What's artificial life?",
+            "Artificial life?"
+        ],
+        "responses": [
+            "Artificial life refers to the creation of living systems or life-like behaviors using computer simulations, robotics, or synthetic biology. It explores fundamental questions about the nature of life and the possibility of creating lifelike entities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "human_augmentation",
+        "patterns": [
+            "What's human augmentation?",
+            "Human augmentation?"
+        ],
+        "responses": [
+            "Human augmentation involves enhancing human abilities and capabilities through technological means, such as prosthetics, implants, and cognitive enhancements. It raises ethical and societal questions about equality, identity, and access."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "digital_divide",
+        "patterns": [
+            "What's the digital divide?",
+            "Digital divide?"
+        ],
+        "responses": [
+            "The digital divide refers to the gap between those who have access to digital technologies and the internet and those who do not. It encompasses issues of socioeconomic inequality, education, and infrastructure."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cybercrime",
+        "patterns": [
+            "How can we combat cybercrime?",
+            "Cybercrime?"
+        ],
+        "responses": [
+            "Combating cybercrime requires collaboration between governments, law enforcement agencies, businesses, and cybersecurity experts. It involves implementing effective security measures, raising awareness, and enforcing laws to deter and prosecute cybercriminals."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "online_privacy",
+        "patterns": [
+            "How can we protect online privacy?",
+            "Online privacy?"
+        ],
+        "responses": [
+            "Protecting online privacy involves using strong passwords, encryption, secure browsing practices, and being cautious about sharing personal information online. It also requires advocating for privacy rights and regulations to safeguard individuals' digital identities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "e_learning",
+        "patterns": [
+            "What's the future of e-learning?",
+            "E-learning?"
+        ],
+        "responses": [
+            "The future of e-learning is promising, with advancements in technology enabling personalized, interactive, and accessible learning experiences. It has the potential to democratize education and provide lifelong learning opportunities for people worldwide."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "online_shopping",
+        "patterns": [
+            "What are the trends in online shopping?",
+            "Online shopping?"
+        ],
+        "responses": [
+            "Online shopping continues to grow in popularity, driven by convenience, variety, and competitive pricing. Emerging trends include mobile shopping, social commerce, and personalized shopping experiences."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "telemedicine",
+        "patterns": [
+            "What's the impact of telemedicine?",
+            "Telemedicine?"
+        ],
+        "responses": [
+            "Telemedicine, or remote healthcare delivery using telecommunications technology, has expanded access to medical services, especially in remote or underserved areas. It offers convenience, cost savings, and improved patient outcomes."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "online_security",
+        "patterns": [
+            "How can we enhance online security?",
+            "Online security?"
+        ],
+        "responses": [
+            "Enhancing online security requires using strong passwords, two-factor authentication, encryption, and keeping software up to date. It also involves educating users about common security threats and best practices for safe online behavior."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "emerging_technologies",
+        "patterns": [
+            "What are some emerging technologies to watch?",
+            "Emerging technologies?"
+        ],
+        "responses": [
+            "Emerging technologies such as artificial intelligence, blockchain, quantum computing, and biotechnology are poised to revolutionize various industries and drive innovation in the coming years."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_introduction",
+        "patterns": [
+            "Tell me about animals",
+            "Animals?"
+        ],
+        "responses": [
+            "Animals are multicellular, eukaryotic organisms that form the biological kingdom Animalia. They come in a wide variety of shapes, sizes, and habitats, and play diverse roles in ecosystems."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mammals",
+        "patterns": [
+            "What are mammals?",
+            "Mammals?"
+        ],
+        "responses": [
+            "Mammals are vertebrate animals characterized by having mammary glands that produce milk for feeding their young, hair or fur, and typically giving birth to live young. They include diverse species such as humans, dogs, cats, and whales."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "reptiles",
+        "patterns": [
+            "What are reptiles?",
+            "Reptiles?"
+        ],
+        "responses": [
+            "Reptiles are cold-blooded vertebrates characterized by having dry, scaly skin, and laying shelled eggs. They include species such as snakes, lizards, turtles, and crocodiles."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "birds",
+        "patterns": [
+            "Tell me about birds",
+            "Birds?"
+        ],
+        "responses": [
+            "Birds are warm-blooded vertebrates characterized by feathers, beaks, and laying hard-shelled eggs. They exhibit diverse behaviors, adaptations, and habitats, from flightless birds like ostriches to agile fliers like hummingbirds."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "amphibians",
+        "patterns": [
+            "What are amphibians?",
+            "Amphibians?"
+        ],
+        "responses": [
+            "Amphibians are cold-blooded vertebrates that typically undergo metamorphosis, starting as aquatic larvae and transforming into terrestrial adults. They include frogs, toads, salamanders, and newts."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "fish",
+        "patterns": [
+            "Tell me about fish",
+            "Fish?"
+        ],
+        "responses": [
+            "Fish are aquatic vertebrates characterized by having gills for breathing, fins for swimming, and scales covering their bodies. They inhabit a wide range of aquatic environments, from freshwater rivers and lakes to the depths of the ocean."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "insects",
+        "patterns": [
+            "What are insects?",
+            "Insects?"
+        ],
+        "responses": [
+            "Insects are the largest group of animals on Earth, characterized by having three body segments (head, thorax, and abdomen), six legs, and typically one or two pairs of wings. They play crucial roles in ecosystems as pollinators, decomposers, and food sources."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "endangered_species",
+        "patterns": [
+            "Tell me about endangered species",
+            "Endangered species?"
+        ],
+        "responses": [
+            "Endangered species are those facing a high risk of extinction in the wild. Threats to endangered species include habitat loss, pollution, climate change, poaching, and invasive species. Conservation efforts are essential for protecting endangered species and preserving biodiversity."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_behaviors",
+        "patterns": [
+            "What are some interesting animal behaviors?",
+            "Animal behaviors?"
+        ],
+        "responses": [
+            "Animals exhibit a wide range of fascinating behaviors, including communication, migration, mating rituals, parental care, hunting strategies, and social interactions. These behaviors are often shaped by evolutionary pressures and environmental factors."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_adaptations",
+        "patterns": [
+            "How do animals adapt to their environments?",
+            "Animal adaptations?"
+        ],
+        "responses": [
+            "Animals adapt to their environments through various mechanisms such as physical features, behavioral changes, and physiological adjustments. Examples of adaptations include camouflage, mimicry, hibernation, and migration."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_intelligence",
+        "patterns": [
+            "Are animals intelligent?",
+            "Animal intelligence?"
+        ],
+        "responses": [
+            "Many animals exhibit forms of intelligence and cognitive abilities, although they may differ from human intelligence. Examples include problem-solving skills in primates, tool use in birds and mammals, and social learning in various species."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_communication",
+        "patterns": [
+            "How do animals communicate?",
+            "Animal communication?"
+        ],
+        "responses": [
+            "Animals communicate through a variety of means, including vocalizations, body language, scent marking, and visual displays. Communication serves various purposes such as mating, establishing territory, warning of danger, and coordinating group activities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_migration",
+        "patterns": [
+            "Why do animals migrate?",
+            "Animal migration?"
+        ],
+        "responses": [
+            "Animals migrate for various reasons, including seasonal changes, breeding opportunities, access to food sources, and avoiding harsh environmental conditions. Migration allows animals to take advantage of different habitats and resources throughout the year."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_reproduction",
+        "patterns": [
+            "How do animals reproduce?",
+            "Animal reproduction?"
+        ],
+        "responses": [
+            "Animals reproduce through a range of reproductive strategies, including sexual reproduction, asexual reproduction, and complex mating rituals. Reproduction ensures the survival and continuation of species, passing on genetic traits to offspring."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_ecosystems",
+        "patterns": [
+            "How do animals contribute to ecosystems?",
+            "Animal ecosystems?"
+        ],
+        "responses": [
+            "Animals play vital roles in ecosystems as consumers, producers, prey, predators, and ecosystem engineers. They contribute to nutrient cycling, pollination, seed dispersal, and maintaining ecological balance."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_conservation",
+        "patterns": [
+            "Why is animal conservation important?",
+            "Animal conservation?"
+        ],
+        "responses": [
+            "Animal conservation is essential for preserving biodiversity, protecting ecosystems, and ensuring the survival of endangered species. Conservation efforts help maintain healthy ecosystems, support ecological services, and safeguard the planet's natural heritage."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_habitats",
+        "patterns": [
+            "What are some animal habitats?",
+            "Animal habitats?"
+        ],
+        "responses": [
+            "Animals inhabit a wide range of habitats, including forests, grasslands, deserts, mountains, wetlands, oceans, and polar regions. Each habitat provides unique resources and challenges, shaping the evolution and behavior of its inhabitants."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_diet",
+        "patterns": [
+            "What do animals eat?",
+            "Animal diet?"
+        ],
+        "responses": [
+            "Animals have diverse diets depending on their species, habitat, and ecological niche. They may be herbivores, carnivores, omnivores, or detritivores, feeding on plants, other animals, or a combination of both."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_relationships",
+        "patterns": [
+            "How do animals interact with each other?",
+            "Animal relationships?"
+        ],
+        "responses": [
+            "Animals interact with each other in various ways, including cooperation, competition, symbiosis, predator-prey relationships, and social hierarchies. These interactions influence behavior, ecology, and evolutionary dynamics within ecosystems."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_senses",
+        "patterns": [
+            "How do animals perceive the world?",
+            "Animal senses?"
+        ],
+        "responses": [
+            "Animals perceive the world through a combination of senses, including sight, hearing, smell, taste, touch, and in some cases, electroreception and magnetoreception. Sensory adaptations allow animals to detect stimuli, locate resources, and navigate their environments."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_defense",
+        "patterns": [
+            "How do animals defend themselves?",
+            "Animal defense?"
+        ],
+        "responses": [
+            "Animals employ various defense mechanisms to protect themselves from predators, including camouflage, mimicry, warning coloration, physical defenses like claws or spines, and behavioral tactics such as fleeing, hiding, or forming groups for safety."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_evolution",
+        "patterns": [
+            "How have animals evolved over time?",
+            "Animal evolution?"
+        ],
+        "responses": [
+            "Animals have evolved diverse adaptations over millions of years in response to changing environmental conditions, competition, predation, and other selective pressures. Evolutionary processes such as natural selection and genetic drift drive the diversity and complexity of animal life."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_social_structure",
+        "patterns": [
+            "What are animal social structures like?",
+            "Animal social structure?"
+        ],
+        "responses": [
+            "Animal social structures vary widely among species and can include solitary individuals, pairs, family groups, herds, packs, colonies, and complex societies with intricate social hierarchies. Social behavior serves various functions such as cooperation, mating, and raising offspring."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_cognition",
+        "patterns": [
+            "Do animals have cognitive abilities?",
+            "Animal cognition?"
+        ],
+        "responses": [
+            "Many animals exhibit cognitive abilities such as problem-solving, memory, learning, tool use, communication, and self-awareness. Cognitive research helps us understand the complexity and diversity of animal minds and behaviors."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_welfare",
+        "patterns": [
+            "How can we improve animal welfare?",
+            "Animal welfare?"
+        ],
+        "responses": [
+            "Improving animal welfare involves ensuring humane treatment and care for animals in various settings such as farms, laboratories, zoos, and households. It includes providing adequate housing, nutrition, healthcare, and enrichment while minimizing stress and suffering."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_migration",
+        "patterns": [
+            "Why do animals migrate?",
+            "Animal migration?"
+        ],
+        "responses": [
+            "Animals migrate for various reasons, including seasonal changes, breeding opportunities, access to food sources, and avoiding harsh environmental conditions. Migration allows animals to take advantage of different habitats and resources throughout the year."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_reproduction",
+        "patterns": [
+            "How do animals reproduce?",
+            "Animal reproduction?"
+        ],
+        "responses": [
+            "Animals reproduce through a range of reproductive strategies, including sexual reproduction, asexual reproduction, and complex mating rituals. Reproduction ensures the survival and continuation of species, passing on genetic traits to offspring."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_ecosystems",
+        "patterns": [
+            "How do animals contribute to ecosystems?",
+            "Animal ecosystems?"
+        ],
+        "responses": [
+            "Animals play vital roles in ecosystems as consumers, producers, prey, predators, and ecosystem engineers. They contribute to nutrient cycling, pollination, seed dispersal, and maintaining ecological balance."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_conservation",
+        "patterns": [
+            "Why is animal conservation important?",
+            "Animal conservation?"
+        ],
+        "responses": [
+            "Animal conservation is essential for preserving biodiversity, protecting ecosystems, and ensuring the survival of endangered species. Conservation efforts help maintain healthy ecosystems, support ecological services, and safeguard the planet's natural heritage."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_habitats",
+        "patterns": [
+            "What are some animal habitats?",
+            "Animal habitats?"
+        ],
+        "responses": [
+            "Animals inhabit a wide range of habitats, including forests, grasslands, deserts, mountains, wetlands, oceans, and polar regions. Each habitat provides unique resources and challenges, shaping the evolution and behavior of its inhabitants."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_diet",
+        "patterns": [
+            "What do animals eat?",
+            "Animal diet?"
+        ],
+        "responses": [
+            "Animals have diverse diets depending on their species, habitat, and ecological niche. They may be herbivores, carnivores, omnivores, or detritivores, feeding on plants, other animals, or a combination of both."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_relationships",
+        "patterns": [
+            "How do animals interact with each other?",
+            "Animal relationships?"
+        ],
+        "responses": [
+            "Animals interact with each other in various ways, including cooperation, competition, symbiosis, predator-prey relationships, and social hierarchies. These interactions influence behavior, ecology, and evolutionary dynamics within ecosystems."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_senses",
+        "patterns": [
+            "How do animals perceive the world?",
+            "Animal senses?"
+        ],
+        "responses": [
+            "Animals perceive the world through a combination of senses, including sight, hearing, smell, taste, touch, and in some cases, electroreception and magnetoreception. Sensory adaptations allow animals to detect stimuli, locate resources, and navigate their environments."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_defense",
+        "patterns": [
+            "How do animals defend themselves?",
+            "Animal defense?"
+        ],
+        "responses": [
+            "Animals employ various defense mechanisms to protect themselves from predators, including camouflage, mimicry, warning coloration, physical defenses like claws or spines, and behavioral tactics such as fleeing, hiding, or forming groups for safety."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_evolution",
+        "patterns": [
+            "How have animals evolved over time?",
+            "Animal evolution?"
+        ],
+        "responses": [
+            "Animals have evolved diverse adaptations over millions of years in response to changing environmental conditions, competition, predation, and other selective pressures. Evolutionary processes such as natural selection and genetic drift drive the diversity and complexity of animal life."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_social_structure",
+        "patterns": [
+            "What are animal social structures like?",
+            "Animal social structure?"
+        ],
+        "responses": [
+            "Animal social structures vary widely among species and can include solitary individuals, pairs, family groups, herds, packs, colonies, and complex societies with intricate social hierarchies. Social behavior serves various functions such as cooperation, mating, and raising offspring."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_cognition",
+        "patterns": [
+            "Do animals have cognitive abilities?",
+            "Animal cognition?"
+        ],
+        "responses": [
+            "Many animals exhibit cognitive abilities such as problem-solving, memory, learning, tool use, communication, and self-awareness. Cognitive research helps us understand the complexity and diversity of animal minds and behaviors."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "animal_welfare",
+        "patterns": [
+            "How can we improve animal welfare?",
+            "Animal welfare?"
+        ],
+        "responses": [
+            "Improving animal welfare involves ensuring humane treatment and care for animals in various settings such as farms, laboratories, zoos, and households. It includes providing adequate housing, nutrition, healthcare, and enrichment while minimizing stress and suffering."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_introduction",
+        "patterns": [
+            "Tell me about food",
+            "Food?"
+        ],
+        "responses": [
+            "Food is any substance consumed to provide nutritional support for the body. It consists of nutrients such as carbohydrates, proteins, fats, vitamins, and minerals, obtained from plants and animals through farming, fishing, or hunting."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cuisine_types",
+        "patterns": [
+            "What are some types of cuisine?",
+            "Cuisine types?"
+        ],
+        "responses": [
+            "There are numerous types of cuisine worldwide, each characterized by its unique ingredients, flavors, cooking techniques, and cultural influences. Some popular cuisines include Italian, Chinese, Indian, Mexican, French, Japanese, Thai, and Mediterranean."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cooking_methods",
+        "patterns": [
+            "How do you cook food?",
+            "Cooking methods?"
+        ],
+        "responses": [
+            "There are many cooking methods used to prepare food, including boiling, steaming, baking, grilling, frying, roasting, sautéing, braising, and stewing. Each method imparts different flavors and textures to the ingredients."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "favorite_dish",
+        "patterns": [
+            "What's your favorite dish?",
+            "Favorite dish?"
+        ],
+        "responses": [
+            "As an AI, I don't have personal preferences, but I can appreciate a wide range of dishes from various cuisines. What's your favorite dish?"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_culture",
+        "patterns": [
+            "How does food reflect culture?",
+            "Food and culture?"
+        ],
+        "responses": [
+            "Food is deeply intertwined with culture, reflecting traditions, values, beliefs, and social customs of a community or region. It serves as a means of celebration, identity expression, and social bonding, with recipes often passed down through generations."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "healthy_eating",
+        "patterns": [
+            "What does it mean to eat healthy?",
+            "Healthy eating?"
+        ],
+        "responses": [
+            "Healthy eating involves consuming a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats, while limiting processed foods, sugary snacks, and excessive salt and saturated fats. It's essential for maintaining overall health and well-being."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "vegetarianism",
+        "patterns": [
+            "What's vegetarianism?",
+            "Vegetarianism?"
+        ],
+        "responses": [
+            "Vegetarianism is a dietary practice that excludes meat, poultry, and seafood from the diet, often for ethical, environmental, or health reasons. Some vegetarians also avoid animal by-products like gelatin and rennet."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "veganism",
+        "patterns": [
+            "What's veganism?",
+            "Veganism?"
+        ],
+        "responses": [
+            "Veganism is a lifestyle that abstains from consuming or using animal products, including meat, dairy, eggs, honey, and products derived from animals like leather and wool. It's motivated by ethical, environmental, and health concerns."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "gluten_free",
+        "patterns": [
+            "What's gluten-free diet?",
+            "Gluten-free?"
+        ],
+        "responses": [
+            "A gluten-free diet eliminates gluten, a protein found in wheat, barley, rye, and related grains. It's essential for people with celiac disease or gluten sensitivity and involves avoiding foods like bread, pasta, and baked goods containing gluten."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "organic_food",
+        "patterns": [
+            "What's organic food?",
+            "Organic food?"
+        ],
+        "responses": [
+            "Organic food is produced without synthetic pesticides, fertilizers, genetically modified organisms (GMOs), or irradiation. It's grown or raised using organic farming practices that promote soil health, biodiversity, and sustainable agriculture."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "street_food",
+        "patterns": [
+            "Tell me about street food",
+            "Street food?"
+        ],
+        "responses": [
+            "Street food refers to ready-to-eat food and beverages sold by vendors or hawkers in public places like streets, markets, and parks. It's often affordable, convenient, and showcases local flavors and culinary traditions."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "regional_cuisine",
+        "patterns": [
+            "What are some examples of regional cuisine?",
+            "Regional cuisine?"
+        ],
+        "responses": [
+            "Regional cuisine refers to the culinary traditions and dishes associated with specific geographic regions or cultures. Examples include Southern barbecue in the United States, sushi in Japan, paella in Spain, and curry in India."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_health",
+        "patterns": [
+            "How does food impact health?",
+            "Food and health?"
+        ],
+        "responses": [
+            "Food plays a crucial role in health, providing essential nutrients, energy, and hydration. A balanced diet supports overall well-being, helps prevent chronic diseases like obesity, diabetes, and heart disease, and promotes longevity and quality of life."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_trends",
+        "patterns": [
+            "What are some current food trends?",
+            "Food trends?"
+        ],
+        "responses": [
+            "Current food trends include plant-based alternatives, sustainable and ethically sourced ingredients, global flavors and fusion cuisine, fermentation and gut health, and functional foods with added health benefits. Food trends often reflect changing consumer preferences and concerns."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_waste",
+        "patterns": [
+            "How can we reduce food waste?",
+            "Food waste?"
+        ],
+        "responses": [
+            "Reducing food waste involves minimizing the amount of food discarded at various stages of production, distribution, and consumption. Strategies include meal planning, proper storage, composting food scraps, and supporting initiatives to redistribute surplus food to those in need."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_security",
+        "patterns": [
+            "What is food security?",
+            "Food security?"
+        ],
+        "responses": [
+            "Food security exists when all people have access to sufficient, safe, and nutritious food to meet their dietary needs and preferences for an active and healthy life. It involves addressing issues of food availability, access, utilization, and stability."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_labels",
+        "patterns": [
+            "How do you read food labels?",
+            "Food labels?"
+        ],
+        "responses": [
+            "Food labels provide important information about the nutritional content, ingredients, allergens, serving size, and expiration date of packaged foods. Reading food labels helps consumers make informed choices and manage their dietary preferences and health goals."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_allergies",
+        "patterns": [
+            "What are food allergies?",
+            "Food allergies?"
+        ],
+        "responses": [
+            "Food allergies occur when the immune system mistakenly identifies certain food proteins as harmful and triggers an allergic reaction. Common food allergens include peanuts, tree nuts, milk, eggs, soy, wheat, fish, and shellfish."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_safety",
+        "patterns": [
+            "How can we ensure food safety?",
+            "Food safety?"
+        ],
+        "responses": [
+            "Ensuring food safety involves preventing contamination, spoilage, and foodborne illnesses by following proper hygiene practices, storing and handling food safely, cooking foods to the right temperatures, and avoiding cross-contamination."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "culinary_skills",
+        "patterns": [
+            "How can I improve my culinary skills?",
+            "Culinary skills?"
+        ],
+        "responses": [
+            "Improving culinary skills involves learning cooking techniques, experimenting with recipes and ingredients, practicing knife skills, mastering flavor combinations, and understanding basic culinary principles like timing and temperature control."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_emotions",
+        "patterns": [
+            "How does food affect emotions?",
+            "Food and emotions?"
+        ],
+        "responses": [
+            "Food can influence emotions through sensory experiences, cultural associations, and physiological effects. Comfort foods, for example, may evoke feelings of nostalgia or happiness, while certain nutrients like serotonin and dopamine can impact mood and well-being."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_environment",
+        "patterns": [
+            "How does food production impact the environment?",
+            "Food and environment?"
+        ],
+        "responses": [
+            "Food production has significant environmental impacts, including deforestation, greenhouse gas emissions, water pollution, habitat loss, and biodiversity decline. Sustainable farming practices, reducing food waste, and shifting towards plant-based diets can help mitigate these impacts."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_economy",
+        "patterns": [
+            "How does food contribute to the economy?",
+            "Food and economy?"
+        ],
+        "responses": [
+            "Food contributes to the economy through agricultural production, food processing, distribution, retail, restaurants, and food service industries. It creates jobs, generates revenue, supports local economies, and plays a vital role in global trade and commerce."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_socializing",
+        "patterns": [
+            "How does food facilitate socializing?",
+            "Food and socializing?"
+        ],
+        "responses": [
+            "Food often serves as a centerpiece for social gatherings, celebrations, and cultural events, bringing people together to share meals, stories, and experiences. Sharing food fosters connections, strengthens relationships, and builds community bonds."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_history",
+        "patterns": [
+            "What can food tell us about history?",
+            "Food and history?"
+        ],
+        "responses": [
+            "Food is a reflection of historical processes, migrations, trade routes, and cultural exchanges. Studying food history provides insights into ancient diets, agricultural practices, culinary traditions, and the ways food shapes societies and identities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_technology",
+        "patterns": [
+            "How does technology impact food?",
+            "Food and technology?"
+        ],
+        "responses": [
+            "Technology influences food production, distribution, and consumption through innovations in agriculture, food processing, packaging, transportation, and kitchen appliances. It improves efficiency, safety, and convenience in the food supply chain."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_celebrations",
+        "patterns": [
+            "How is food used in celebrations?",
+            "Food and celebrations?"
+        ],
+        "responses": [
+            "Food plays a central role in celebrations, festivals, and holidays around the world, symbolizing abundance, hospitality, and cultural identity. Special dishes, feasts, and rituals often accompany festive occasions, marking milestones and strengthening social bonds."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_health",
+        "patterns": [
+            "How does food impact health?",
+            "Food and health?"
+        ],
+        "responses": [
+            "Food plays a crucial role in health, providing essential nutrients, energy, and hydration. A balanced diet supports overall well-being, helps prevent chronic diseases like obesity, diabetes, and heart disease, and promotes longevity and quality of life."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_trends",
+        "patterns": [
+            "What are some current food trends?",
+            "Food trends?"
+        ],
+        "responses": [
+            "Current food trends include plant-based alternatives, sustainable and ethically sourced ingredients, global flavors and fusion cuisine, fermentation and gut health, and functional foods with added health benefits. Food trends often reflect changing consumer preferences and concerns."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_waste",
+        "patterns": [
+            "How can we reduce food waste?",
+            "Food waste?"
+        ],
+        "responses": [
+            "Reducing food waste involves minimizing the amount of food discarded at various stages of production, distribution, and consumption. Strategies include meal planning, proper storage, composting food scraps, and supporting initiatives to redistribute surplus food to those in need."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_security",
+        "patterns": [
+            "What is food security?",
+            "Food security?"
+        ],
+        "responses": [
+            "Food security exists when all people have access to sufficient, safe, and nutritious food to meet their dietary needs and preferences for an active and healthy life. It involves addressing issues of food availability, access, utilization, and stability."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_labels",
+        "patterns": [
+            "How do you read food labels?",
+            "Food labels?"
+        ],
+        "responses": [
+            "Food labels provide important information about the nutritional content, ingredients, allergens, serving size, and expiration date of packaged foods. Reading food labels helps consumers make informed choices and manage their dietary preferences and health goals."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_allergies",
+        "patterns": [
+            "What are food allergies?",
+            "Food allergies?"
+        ],
+        "responses": [
+            "Food allergies occur when the immune system mistakenly identifies certain food proteins as harmful and triggers an allergic reaction. Common food allergens include peanuts, tree nuts, milk, eggs, soy, wheat, fish, and shellfish."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_safety",
+        "patterns": [
+            "How can we ensure food safety?",
+            "Food safety?"
+        ],
+        "responses": [
+            "Ensuring food safety involves preventing contamination, spoilage, and foodborne illnesses by following proper hygiene practices, storing and handling food safely, cooking foods to the right temperatures, and avoiding cross-contamination."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "culinary_skills",
+        "patterns": [
+            "How can I improve my culinary skills?",
+            "Culinary skills?"
+        ],
+        "responses": [
+            "Improving culinary skills involves learning cooking techniques, experimenting with recipes and ingredients, practicing knife skills, mastering flavor combinations, and understanding basic culinary principles like timing and temperature control."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_emotions",
+        "patterns": [
+            "How does food affect emotions?",
+            "Food and emotions?"
+        ],
+        "responses": [
+            "Food can influence emotions through sensory experiences, cultural associations, and physiological effects. Comfort foods, for example, may evoke feelings of nostalgia or happiness, while certain nutrients like serotonin and dopamine can impact mood and well-being."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_environment",
+        "patterns": [
+            "How does food production impact the environment?",
+            "Food and environment?"
+        ],
+        "responses": [
+            "Food production has significant environmental impacts, including deforestation, greenhouse gas emissions, water pollution, habitat loss, and biodiversity decline. Sustainable farming practices, reducing food waste, and shifting towards plant-based diets can help mitigate these impacts."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_economy",
+        "patterns": [
+            "How does food contribute to the economy?",
+            "Food and economy?"
+        ],
+        "responses": [
+            "Food contributes to the economy through agricultural production, food processing, distribution, retail, restaurants, and food service industries. It creates jobs, generates revenue, supports local economies, and plays a vital role in global trade and commerce."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_socializing",
+        "patterns": [
+            "How does food facilitate socializing?",
+            "Food and socializing?"
+        ],
+        "responses": [
+            "Food often serves as a centerpiece for social gatherings, celebrations, and cultural events, bringing people together to share meals, stories, and experiences. Sharing food fosters connections, strengthens relationships, and builds community bonds."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_history",
+        "patterns": [
+            "What can food tell us about history?",
+            "Food and history?"
+        ],
+        "responses": [
+            "Food is a reflection of historical processes, migrations, trade routes, and cultural exchanges. Studying food history provides insights into ancient diets, agricultural practices, culinary traditions, and the ways food shapes societies and identities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_technology",
+        "patterns": [
+            "How does technology impact food?",
+            "Food and technology?"
+        ],
+        "responses": [
+            "Technology influences food production, distribution, and consumption through innovations in agriculture, food processing, packaging, transportation, and kitchen appliances. It improves efficiency, safety, and convenience in the food supply chain."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "food_and_celebrations",
+        "patterns": [
+            "How is food used in celebrations?",
+            "Food and celebrations?"
+        ],
+        "responses": [
+            "Food plays a central role in celebrations, festivals, and holidays around the world, symbolizing abundance, hospitality, and cultural identity. Special dishes, feasts, and rituals often accompany festive occasions, marking milestones and strengthening social bonds."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "tech_introduction",
+        "patterns": [
+            "Tell me about technology",
+            "Technology?"
+        ],
+        "responses": [
+            "Technology refers to the application of scientific knowledge, tools, and techniques to solve problems, improve efficiency, and achieve practical goals. It encompasses a wide range of innovations, from simple tools and machines to complex systems and digital technologies."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "emerging_technologies",
+        "patterns": [
+            "What are some emerging technologies?",
+            "Emerging technologies?"
+        ],
+        "responses": [
+            "Emerging technologies are innovations that are currently in the early stages of development but show potential for significant impact in the future. Examples include artificial intelligence, blockchain, virtual reality, augmented reality, 5G networks, and quantum computing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "artificial_intelligence",
+        "patterns": [
+            "What is artificial intelligence?",
+            "Artificial intelligence?"
+        ],
+        "responses": [
+            "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. AI encompasses tasks such as learning, reasoning, problem-solving, perception, and language understanding."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "machine_learning",
+        "patterns": [
+            "What is machine learning?",
+            "Machine learning?"
+        ],
+        "responses": [
+            "Machine learning is a subset of artificial intelligence that involves the development of algorithms and models that allow computers to learn from data and make predictions or decisions without being explicitly programmed. It's used in various applications, from recommendation systems to autonomous vehicles."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "blockchain_technology",
+        "patterns": [
+            "What is blockchain technology?",
+            "Blockchain technology?"
+        ],
+        "responses": [
+            "Blockchain technology is a decentralized, distributed ledger system that records transactions across multiple computers in a way that is transparent, secure, and tamper-resistant. It's the underlying technology behind cryptocurrencies like Bitcoin and has applications beyond finance, including supply chain management and voting systems."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "internet_of_things",
+        "patterns": [
+            "What is the Internet of Things (IoT)?",
+            "Internet of Things?"
+        ],
+        "responses": [
+            "The Internet of Things (IoT) refers to the network of interconnected devices, sensors, and objects that can collect and exchange data over the internet. IoT enables the automation, monitoring, and optimization of various processes and systems, from smart homes and wearable devices to industrial machinery and urban infrastructure."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "5g_technology",
+        "patterns": [
+            "What is 5G technology?",
+            "5G technology?"
+        ],
+        "responses": [
+            "5G technology is the fifth generation of wireless cellular networks, offering faster data speeds, lower latency, and greater capacity than previous generations. It enables advanced applications such as augmented reality, virtual reality, remote surgery, and autonomous vehicles."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "augmented_reality",
+        "patterns": [
+            "What is augmented reality (AR)?",
+            "Augmented reality?"
+        ],
+        "responses": [
+            "Augmented reality (AR) is a technology that overlays digital information, such as images, videos, or 3D models, onto the real-world environment, enhancing the user's perception and interaction with their surroundings. AR is used in gaming, navigation, education, and marketing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "virtual_reality",
+        "patterns": [
+            "What is virtual reality (VR)?",
+            "Virtual reality?"
+        ],
+        "responses": [
+            "Virtual reality (VR) is a technology that immerses users in a computer-generated simulation of an environment or experience, allowing them to interact with and explore virtual worlds as if they were real. VR is used in gaming, education, training, therapy, and entertainment."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cloud_computing",
+        "patterns": [
+            "What is cloud computing?",
+            "Cloud computing?"
+        ],
+        "responses": [
+            "Cloud computing is a model for delivering computing services over the internet on-demand, including storage, processing power, and software applications. It enables users to access and use resources from remote data centers, providing scalability, flexibility, and cost-efficiency."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cybersecurity",
+        "patterns": [
+            "What is cybersecurity?",
+            "Cybersecurity?"
+        ],
+        "responses": [
+            "Cybersecurity is the practice of protecting computer systems, networks, and data from cyber threats, including unauthorized access, data breaches, malware, ransomware, and phishing attacks. It involves implementing security measures, policies, and technologies to safeguard digital assets and maintain privacy."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "data_privacy",
+        "patterns": [
+            "What is data privacy?",
+            "Data privacy?"
+        ],
+        "responses": [
+            "Data privacy refers to the protection of individuals' personal information and sensitive data from unauthorized access, use, or disclosure. It involves implementing privacy policies, encryption, access controls, and data anonymization techniques to ensure confidentiality and compliance with regulations."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "robotics",
+        "patterns": [
+            "What are robotics?",
+            "Robotics?"
+        ],
+        "responses": [
+            "Robotics is the interdisciplinary field of science and engineering that involves designing, building, and programming robots, autonomous machines that can perform tasks or interact with the environment autonomously or with human guidance. Robotics has applications in manufacturing, healthcare, agriculture, exploration, and more."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "biotechnology",
+        "patterns": [
+            "What is biotechnology?",
+            "Biotechnology?"
+        ],
+        "responses": [
+            "Biotechnology is the use of living organisms, cells, and biological systems to develop products and technologies that improve human health, agriculture, industry, and the environment. It includes areas such as genetic engineering, biopharmaceuticals, biofuels, and bioremediation."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "nanotechnology",
+        "patterns": [
+            "What is nanotechnology?",
+            "Nanotechnology?"
+        ],
+        "responses": [
+            "Nanotechnology is the manipulation of matter on an atomic, molecular, and supramolecular scale to create materials, devices, and systems with novel properties and functions. It has applications in electronics, medicine, energy, materials science, and environmental remediation."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "artificial_intelligence",
+        "patterns": [
+            "What is artificial intelligence?",
+            "Artificial intelligence?"
+        ],
+        "responses": [
+            "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. AI encompasses tasks such as learning, reasoning, problem-solving, perception, and language understanding."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "machine_learning",
+        "patterns": [
+            "What is machine learning?",
+            "Machine learning?"
+        ],
+        "responses": [
+            "Machine learning is a subset of artificial intelligence that involves the development of algorithms and models that allow computers to learn from data and make predictions or decisions without being explicitly programmed. It's used in various applications, from recommendation systems to autonomous vehicles."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "blockchain_technology",
+        "patterns": [
+            "What is blockchain technology?",
+            "Blockchain technology?"
+        ],
+        "responses": [
+            "Blockchain technology is a decentralized, distributed ledger system that records transactions across multiple computers in a way that is transparent, secure, and tamper-resistant. It's the underlying technology behind cryptocurrencies like Bitcoin and has applications beyond finance, including supply chain management and voting systems."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "internet_of_things",
+        "patterns": [
+            "What is the Internet of Things (IoT)?",
+            "Internet of Things?"
+        ],
+        "responses": [
+            "The Internet of Things (IoT) refers to the network of interconnected devices, sensors, and objects that can collect and exchange data over the internet. IoT enables the automation, monitoring, and optimization of various processes and systems, from smart homes and wearable devices to industrial machinery and urban infrastructure."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "5g_technology",
+        "patterns": [
+            "What is 5G technology?",
+            "5G technology?"
+        ],
+        "responses": [
+            "5G technology is the fifth generation of wireless cellular networks, offering faster data speeds, lower latency, and greater capacity than previous generations. It enables advanced applications such as augmented reality, virtual reality, remote surgery, and autonomous vehicles."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "augmented_reality",
+        "patterns": [
+            "What is augmented reality (AR)?",
+            "Augmented reality?"
+        ],
+        "responses": [
+            "Augmented reality (AR) is a technology that overlays digital information, such as images, videos, or 3D models, onto the real-world environment, enhancing the user's perception and interaction with their surroundings. AR is used in gaming, navigation, education, and marketing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "virtual_reality",
+        "patterns": [
+            "What is virtual reality (VR)?",
+            "Virtual reality?"
+        ],
+        "responses": [
+            "Virtual reality (VR) is a technology that immerses users in a computer-generated simulation of an environment or experience, allowing them to interact with and explore virtual worlds as if they were real. VR is used in gaming, education, training, therapy, and entertainment."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cloud_computing",
+        "patterns": [
+            "What is cloud computing?",
+            "Cloud computing?"
+        ],
+        "responses": [
+            "Cloud computing is a model for delivering computing services over the internet on-demand, including storage, processing power, and software applications. It enables users to access and use resources from remote data centers, providing scalability, flexibility, and cost-efficiency."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "cybersecurity",
+        "patterns": [
+            "What is cybersecurity?",
+            "Cybersecurity?"
+        ],
+        "responses": [
+            "Cybersecurity is the practice of protecting computer systems, networks, and data from cyber threats, including unauthorized access, data breaches, malware, ransomware, and phishing attacks. It involves implementing security measures, policies, and technologies to safeguard digital assets and maintain privacy."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "data_privacy",
+        "patterns": [
+            "What is data privacy?",
+            "Data privacy?"
+        ],
+        "responses": [
+            "Data privacy refers to the protection of individuals' personal information and sensitive data from unauthorized access, use, or disclosure. It involves implementing privacy policies, encryption, access controls, and data anonymization techniques to ensure confidentiality and compliance with regulations."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "robotics",
+        "patterns": [
+            "What are robotics?",
+            "Robotics?"
+        ],
+        "responses": [
+            "Robotics is the interdisciplinary field of science and engineering that involves designing, building, and programming robots, autonomous machines that can perform tasks or interact with the environment autonomously or with human guidance. Robotics has applications in manufacturing, healthcare, agriculture, exploration, and more."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "biotechnology",
+        "patterns": [
+            "What is biotechnology?",
+            "Biotechnology?"
+        ],
+        "responses": [
+            "Biotechnology is the use of living organisms, cells, and biological systems to develop products and technologies that improve human health, agriculture, industry, and the environment. It includes areas such as genetic engineering, biopharmaceuticals, biofuels, and bioremediation."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "nanotechnology",
+        "patterns": [
+            "What is nanotechnology?",
+            "Nanotechnology?"
+        ],
+        "responses": [
+            "Nanotechnology is the manipulation of matter on an atomic, molecular, and supramolecular scale to create materials, devices, and systems with novel properties and functions. It has applications in electronics, medicine, energy, materials science, and environmental remediation."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ceo_introduction",
+        "patterns": [
+            "Tell me about CEOs of tech companies",
+            "CEOs of tech companies?"
+        ],
+        "responses": [
+            "CEOs (Chief Executive Officers) of tech companies are responsible for leading and managing the overall operations, strategy, and direction of their respective companies. They play a crucial role in shaping the company's vision, culture, and innovation agenda, as well as in driving growth, profitability, and shareholder value."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "elon_musk",
+        "patterns": [
+            "Who is Elon Musk?",
+            "Elon Musk?"
+        ],
+        "responses": [
+            "Elon Musk is a business magnate, industrial designer, and engineer known for founding and leading several technology companies, including SpaceX, Tesla, Neuralink, and The Boring Company. He's recognized for his ambitious projects in space exploration, electric vehicles, renewable energy, and artificial intelligence."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jeff_bezos",
+        "patterns": [
+            "Who is Jeff Bezos?",
+            "Jeff Bezos?"
+        ],
+        "responses": [
+            "Jeff Bezos is the founder and former CEO of Amazon, the world's largest online retailer. He's known for his visionary leadership in revolutionizing e-commerce, cloud computing (through Amazon Web Services), digital streaming (through Amazon Prime), and artificial intelligence (through Alexa). Bezos is one of the wealthiest individuals globally."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "tim_cook",
+        "patterns": [
+            "Who is Tim Cook?",
+            "Tim Cook?"
+        ],
+        "responses": [
+            "Tim Cook is the CEO of Apple Inc., succeeding Steve Jobs in 2011. He's known for his operational expertise and leadership in sustaining Apple's growth and innovation, expanding its product line, and diversifying its services, including Apple Music, iCloud, and Apple Pay. Cook has been instrumental in advancing sustainability and social responsibility initiatives at Apple."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sundar_pichai",
+        "patterns": [
+            "Who is Sundar Pichai?",
+            "Sundar Pichai?"
+        ],
+        "responses": [
+            "Sundar Pichai is the CEO of Alphabet Inc., the parent company of Google, since 2019. He previously served as the CEO of Google. Pichai is known for his leadership in driving Google's product development, including the Chrome browser, Android operating system, and Google Cloud platform. He's also focused on advancing AI and machine learning initiatives at Google."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "satya_nadella",
+        "patterns": [
+            "Who is Satya Nadella?",
+            "Satya Nadella?"
+        ],
+        "responses": [
+            "Satya Nadella is the CEO of Microsoft Corporation, succeeding Steve Ballmer in 2014. He's credited with transforming Microsoft's culture and business strategy to focus on cloud computing (Azure), artificial intelligence, and productivity tools (Office 365, Teams). Nadella has emphasized inclusivity and diversity in Microsoft's workforce and corporate culture."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mark_zuckerberg",
+        "patterns": [
+            "Who is Mark Zuckerberg?",
+            "Mark Zuckerberg?"
+        ],
+        "responses": [
+            "Mark Zuckerberg is the co-founder and CEO of Meta Platforms Inc. (formerly Facebook), the world's largest social media company. He's known for his role in building and scaling Facebook into a global platform with billions of users. Zuckerberg has been involved in various controversies related to privacy, content moderation, and the impact of social media on society."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jack_dorsey",
+        "patterns": [
+            "Who is Jack Dorsey?",
+            "Jack Dorsey?"
+        ],
+        "responses": [
+            "Jack Dorsey is the co-founder and former CEO of Twitter, a popular social media platform known for its microblogging and real-time communication features. Dorsey also co-founded Square, a financial services company that provides mobile payment solutions. He's known for his entrepreneurial spirit and involvement in technology and finance."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jensen_huang",
+        "patterns": [
+            "Who is Jensen Huang?",
+            "Jensen Huang?"
+        ],
+        "responses": [
+            "Jensen Huang is the co-founder and CEO of NVIDIA Corporation, a leading technology company known for its graphics processing units (GPUs) and AI computing platforms. Huang has been instrumental in advancing GPU technology for gaming, data centers, and artificial intelligence applications, driving NVIDIA's growth and innovation in high-performance computing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "ginni_rometty",
+        "patterns": [
+            "Who is Ginni Rometty?",
+            "Ginni Rometty?"
+        ],
+        "responses": [
+            "Ginni Rometty is the former CEO of IBM (International Business Machines Corporation), serving from 2012 to 2020. She's known for her leadership in transforming IBM's business strategy to focus on cloud computing, data analytics, artificial intelligence, and blockchain technology. Rometty has been a prominent advocate for women in technology and corporate leadership."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "brian_chesky",
+        "patterns": [
+            "Who is Brian Chesky?",
+            "Brian Chesky?"
+        ],
+        "responses": [
+            "Brian Chesky is the co-founder and CEO of Airbnb, an online marketplace for lodging, vacation rentals, and tourism experiences. Chesky has been instrumental in shaping Airbnb's growth and innovation, expanding its global presence, and navigating regulatory challenges in the hospitality industry."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "reed_hastings",
+        "patterns": [
+            "Who is Reed Hastings?",
+            "Reed Hastings?"
+        ],
+        "responses": [
+            "Reed Hastings is the co-founder and CEO of Netflix, a leading streaming entertainment service. He's known for his visionary leadership in transforming Netflix from a DVD rental company to a global streaming platform with original content production. Hastings has been instrumental in shaping the future of digital entertainment and disrupting traditional media."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "dara_khosrowshahi",
+        "patterns": [
+            "Who is Dara Khosrowshahi?",
+            "Dara Khosrowshahi?"
+        ],
+        "responses": [
+            "Dara Khosrowshahi is the CEO of Uber Technologies Inc., a multinational ride-hailing and delivery company. He's known for his leadership in restructuring Uber's business model, improving corporate culture, and navigating regulatory challenges. Khosrowshahi has focused on expanding Uber's services beyond transportation into areas like food delivery and logistics."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "stewart_butterfield",
+        "patterns": [
+            "Who is Stewart Butterfield?",
+            "Stewart Butterfield?"
+        ],
+        "responses": [
+            "Stewart Butterfield is the co-founder and CEO of Slack Technologies, a collaboration software platform for businesses. He's known for his entrepreneurial success in building and scaling innovative technology companies, including Flickr (acquired by Yahoo) and Slack. Butterfield has been a prominent figure in the tech industry, advocating for productivity and communication tools for teams."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "safra_catz",
+        "patterns": [
+            "Who is Safra Catz?",
+            "Safra Catz?"
+        ],
+        "responses": [
+            "Safra Catz is the CEO of Oracle Corporation, a multinational computer technology company specializing in cloud computing and enterprise software products. She's known for her leadership in driving Oracle's growth strategy, expanding its cloud infrastructure business, and overseeing mergers and acquisitions. Catz has been a key figure in Oracle's executive team for many years."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "brian_krzanich",
+        "patterns": [
+            "Who is Brian Krzanich?",
+            "Brian Krzanich?"
+        ],
+        "responses": [
+            "Brian Krzanich is the former CEO of Intel Corporation, a leading semiconductor manufacturing company. He served as CEO from 2013 to 2018. Krzanich is known for his leadership in advancing Intel's technology roadmap, including innovations in processor architecture, memory technologies, and artificial intelligence. He's been involved in efforts to diversify Intel's business beyond traditional PC markets."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "arvind_krishna",
+        "patterns": [
+            "Who is Arvind Krishna?",
+            "Arvind Krishna?"
+        ],
+        "responses": [
+            "Arvind Krishna is the CEO of IBM (International Business Machines Corporation), succeeding Ginni Rometty in 2020. He's known for his technical expertise and leadership in driving IBM's innovation agenda, including advancements in cloud computing, artificial intelligence, and quantum computing. Krishna has been with IBM for many years, holding various leadership positions before becoming CEO."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "diane_greene",
+        "patterns": [
+            "Who is Diane Greene?",
+            "Diane Greene?"
+        ],
+        "responses": [
+            "Diane Greene is a technology entrepreneur and executive known for co-founding VMware, a leading virtualization software company. She served as the CEO of VMware from 1998 to 2008. Greene is also known for her leadership in Google's cloud computing division, where she served as CEO of Google Cloud from 2015 to 2019."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jim_whitehurst",
+        "patterns": [
+            "Who is Jim Whitehurst?",
+            "Jim Whitehurst?"
+        ],
+        "responses": [
+            "Jim Whitehurst is the President of IBM (International Business Machines Corporation), responsible for IBM's cloud and cognitive software business. He previously served as the CEO of Red Hat, an open-source software company acquired by IBM in 2019. Whitehurst is known for his leadership in promoting open-source principles and advancing enterprise software solutions."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "thomas_kurian",
+        "patterns": [
+            "Who is Thomas Kurian?",
+            "Thomas Kurian?"
+        ],
+        "responses": [
+            "Thomas Kurian is the CEO of Alphabet Inc.'s Google Cloud division, overseeing Google's cloud computing business. He joined Google in 2018 after a long tenure at Oracle Corporation, where he held various executive positions. Kurian is known for his expertise in enterprise software and his efforts to expand Google Cloud's market share and capabilities."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "andrew_ng",
+        "patterns": [
+            "Who is Andrew Ng?",
+            "Andrew Ng?"
+        ],
+        "responses": [
+            "Andrew Ng is a computer scientist, entrepreneur, and AI expert known for his work on artificial intelligence and machine learning. He co-founded Google Brain, an AI research lab at Google, and served as its director. Ng also co-founded Coursera, an online learning platform, and is known for his contributions to AI education and research."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "padmasree_warrior",
+        "patterns": [
+            "Who is Padmasree Warrior?",
+            "Padmasree Warrior?"
+        ],
+        "responses": [
+            "Padmasree Warrior is a technology executive and former CEO of NIO USA, an electric vehicle manufacturer. She's known for her leadership roles at Cisco Systems and Motorola, where she served as Chief Technology Officer. Warrior is a prominent advocate for diversity and inclusion in the tech industry and is involved in various technology and sustainability initiatives."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sheryl_sandberg",
+        "patterns": [
+            "Who is Sheryl Sandberg?",
+            "Sheryl Sandberg?"
+        ],
+        "responses": [
+            "Sheryl Sandberg is the Chief Operating Officer (COO) of Meta Platforms Inc. (formerly Facebook). She's known for her leadership in scaling Facebook's operations and revenue growth, as well as for her advocacy for women in leadership and workplace equality. Sandberg is also the author of the bestselling book 'Lean In: Women, Work, and the Will to Lead'."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jensen_huang",
+        "patterns": [
+            "Who is Jensen Huang?",
+            "Jensen Huang?"
+        ],
+        "responses": [
+            "Jensen Huang is the co-founder and CEO of NVIDIA Corporation, a leading technology company known for its graphics processing units (GPUs) and AI computing platforms. Huang has been instrumental in advancing GPU technology for gaming, data centers, and artificial intelligence applications, driving NVIDIA's growth and innovation in high-performance computing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mary_barra",
+        "patterns": [
+            "Who is Mary Barra?",
+            "Mary Barra?"
+        ],
+        "responses": [
+            "Mary Barra is the Chairman and CEO of General Motors Company, one of the world's largest automotive manufacturers. She's known for her leadership in transforming GM's business strategy, focusing on electric and autonomous vehicles, connectivity, and mobility services. Barra is the first female CEO of a major global automaker."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "john_legere",
+        "patterns": [
+            "Who is John Legere?",
+            "John Legere?"
+        ],
+        "responses": [
+            "John Legere is the former CEO of T-Mobile US, a telecommunications company. He's known for his unconventional leadership style, marketing strategies, and efforts to disrupt the wireless industry. Legere played a key role in the merger of T-Mobile and Sprint, creating one of the largest wireless carriers in the United States."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "sundar_pichai",
+        "patterns": [
+            "Who is Sundar Pichai?",
+            "Sundar Pichai?"
+        ],
+        "responses": [
+            "Sundar Pichai is the CEO of Alphabet Inc., the parent company of Google, since 2019. He previously served as the CEO of Google. Pichai is known for his leadership in driving Google's product development, including the Chrome browser, Android operating system, and Google Cloud platform. He's also focused on advancing AI and machine learning initiatives at Google."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "satya_nadella",
+        "patterns": [
+            "Who is Satya Nadella?",
+            "Satya Nadella?"
+        ],
+        "responses": [
+            "Satya Nadella is the CEO of Microsoft Corporation, succeeding Steve Ballmer in 2014. He's credited with transforming Microsoft's culture and business strategy to focus on cloud computing (Azure), artificial intelligence, and productivity tools (Office 365, Teams). Nadella has emphasized inclusivity and diversity in Microsoft's workforce and corporate culture."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jack_dorsey",
+        "patterns": [
+            "Who is Jack Dorsey?",
+            "Jack Dorsey?"
+        ],
+        "responses": [
+            "Jack Dorsey is the co-founder and former CEO of Twitter, a popular social media platform known for its microblogging and real-time communication features. Dorsey also co-founded Square, a financial services company that provides mobile payment solutions. He's known for his entrepreneurial spirit and involvement in technology and finance."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "jensen_huang",
+        "patterns": [
+            "Who is Jensen Huang?",
+            "Jensen Huang?"
+        ],
+        "responses": [
+            "Jensen Huang is the co-founder and CEO of NVIDIA Corporation, a leading technology company known for its graphics processing units (GPUs) and AI computing platforms. Huang has been instrumental in advancing GPU technology for gaming, data centers, and artificial intelligence applications, driving NVIDIA's growth and innovation in high-performance computing."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "mary_barra",
+        "patterns": [
+            "Who is Mary Barra?",
+            "Mary Barra?"
+        ],
+        "responses": [
+            "Mary Barra is the Chairman and CEO of General Motors Company, one of the world's largest automotive manufacturers. She's known for her leadership in transforming GM's business strategy, focusing on electric and autonomous vehicles, connectivity, and mobility services. Barra is the first female CEO of a major global automaker."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "john_legere",
+        "patterns": [
+            "Who is John Legere?",
+            "John Legere?"
+        ],
+        "responses": [
+            "John Legere is the former CEO of T-Mobile US, a telecommunications company. He's known for his unconventional leadership style, marketing strategies, and efforts to disrupt the wireless industry. Legere played a key role in the merger of T-Mobile and Sprint, creating one of the largest wireless carriers in the United States."
+        ],
+        "context_set": ""
+    }
+]
