@@ -19,33 +19,75 @@ document.addEventListener('DOMContentLoaded', function() {
             displayMessage(userMessage, 'user');
             setTimeout(() => {
                 getBotResponse(userMessage);
-            }, 1000); // Simulate typing delay
+            }, 1000); // Simulate typing delay...............................................
             userInput.value = '';
         }
     }
-
     function getBotResponse(message) {
-        fetch('script.json')
-            .then(response => response.json())
+        data_file = '/script.json'
+        console.log("data", data_file)
+
+        // 
+        fetch('./script.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(data => {
-                const intents = data.intents;
-                const normalizedMessage = message.toLowerCase();
-
-                let response = "I'm sorry, I don't understand that.";
-
-                // Loop through intents and check for matching patterns
-                intents.forEach(intent => {
-                    if (intent.patterns.some(pattern => pattern.toLowerCase() === normalizedMessage)) {
-                        // Randomly select a response from the matched intent
-                        response = intent.responses[Math.floor(Math.random() * intent.responses.length)];
+                // Work with your JSON data here
+                // console.log(data);
+                // console.log("question", message)
+                let response = ''
+                for (let pattern of data) {
+                    // console.log(pattern['patterns'])
+                    pattern['patterns'].forEach((question, index) => {
+                        // console.log(question)
+                        if (message.toLowerCase().includes(question.toLowerCase())) {
+                            // If the message contains the question
+                            // You can perform your desired action here
+                            // console.log("hello", pattern['responses'])
+                            response = pattern['responses']
+                        }                        
+                    })
                     }
-                });
-
-                simulateTyping(response);
+                if (response != '') {
+                    console.log("response", response)
+                    simulateTyping(response[0])
+                }
+                else {
+                    console.log(response, "else response")
+                    simulateTyping("sorry I am still learning")
+                }
+                // simulateTyping(false)
+                return false;
             })
             .catch(error => {
-                console.error('Error fetching JSON:', error);
+                console.error('There was a problem with the fetch operation:', error);
             });
+
+
+    // 
+        // fetch(data_file)
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         const intents = data.intents;
+        //         const normalizedMessage = message.toLowerCase();
+
+        //         let response = "I'm sorry, I don't understand that.";
+
+        //         intents.forEach(intent => {
+        //             if (intent.patterns.some(pattern => pattern.toLowerCase() === normalizedMessage)) {
+        //                 response = intent.responses[Math.floor(Math.random() * intent.responses.length)];
+        //             }
+        //         });
+
+        //         simulateTyping(response);
+        //     })
+        //     .catch(error => {
+        //         console.error('Error fetching JSON:', error);
+        //     });
     }
 
     function simulateTyping(message) {
@@ -54,13 +96,16 @@ document.addEventListener('DOMContentLoaded', function() {
         typingIndicator.innerText = 'Typing...';
         chatOutput.appendChild(typingIndicator);
 
+        console.log(message, "out put message")
+
         setTimeout(() => {
             typingIndicator.style.display = 'none';
             displayMessage(message, 'bot');
-        }, 1000 + (Math.random() * 1000)); // Simulate typing duration......................
+        }, 1000 + (Math.random() * 1000)); // Simulate typing duration..................................
     }
 
     function displayMessage(message, sender) {
+        console.log(message, sender)
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', sender);
 
